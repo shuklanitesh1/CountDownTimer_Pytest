@@ -70,9 +70,6 @@ class StartPage(BasePage):
         time.sleep(2)
         alert = Alert(self.driver)
         alert.accept()
-        #timeout_expired = self.driver.find_element_by_xpath("//span").text
         print("Countdown Completed")
-        #if before == timeout_expired:
-        #    print("Countdown Completed")
         self.driver.get('https://e.ggtimer.com/')
 
